@@ -35,7 +35,7 @@ fi
 # Check if docker container is up, if not, run the docker-compose.yml file 
 if ! docker ps | grep open-webui > /dev/null; then
     echo "📦 Bringing up Open‑WebUI container…"
-    docker compose -f '/Users/adam/.local/share/docker-compose/open-webui/docker-compose.yml' up -d
+    docker compose -f '~/.local/share/docker-compose/open-webui/docker-compose.yml' up -d
 else
     echo "📦 Open-WebUI container is already up…"
 fi
