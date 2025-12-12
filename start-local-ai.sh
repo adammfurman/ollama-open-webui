@@ -13,7 +13,7 @@ set -euo pipefail
 # "> /dev/null 2>&1" discards stdout and stderr to null
 if ! docker ps >/dev/null 2>&1; then
   echo "🐳 Starting Docker…"
-  open -a Docker --args --background
+  open -a Docker
   # Wait until the Docker daemon is ready
   while ! docker version >/dev/null 2>&1; do sleep 1; done
 else
