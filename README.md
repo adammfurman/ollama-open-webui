@@ -23,6 +23,6 @@ You can verify the script file(s) with my PGP public key to ensure authenticity 
 3. In terminal, enter `gpg --verify start-local-ai.sh.asc start-local-ai.sh`
    - This verifies the integrity and the authenticity of the script file with the provided signature file and my PGP public key
    - Note: signature file goes first, then the script file
-4. You should get "Good signature from Adam Furman hello@adamfurman.me"
+4. You should get "Good signature from Adam Furman <my email>"
    - If you do not get a valid signature, you should not trust the script file, unless you are able to manually analyze it yourself
    - It may be likely I pushed a change and did not update the signature
