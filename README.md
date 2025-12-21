@@ -15,7 +15,7 @@ I've included PGP signatures of the script files.
 
 You can verify the script file(s) with my PGP public key to ensure authenticity and integrity.
 
-> ![INFO]
+> ![NOTE]
 > All my commits are also signed with my PGP signing subkey. You can see the green 'verified' label in the commit history.
 
 1. Download my PGP public key from my website, my GitHub, or a keyserver such as keys.openpgp.org.
