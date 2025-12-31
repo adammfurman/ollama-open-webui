@@ -1,6 +1,9 @@
 # Startup Script for Ollama + Open WebUI
 
-This is a startup script to launch an instance of Ollama and Open WebUI in a single command.
+![Signed commits](https://img.shields.io/badge/commits-signed-dark%20green)
+![PGP signatures](https://img.shields.io/badge/PGP%20signatures-verified-0093DD?logo=gnuprivacyguard)
+
+Set of scripts to launch and close an instance of Ollama and Open WebUI.
 
 I've included PGP signatures of the script files.
 
